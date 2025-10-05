@@ -16,8 +16,8 @@ import axios from "axios";
 // =====================================================
 const config = {
   issuer: "https://192.168.115.17:9443", // ✅ your WSO2 Identity Server base URL
-  clientId: "uj1BM9b20y2dOfLSntbILiIVDzEa",
-  redirectUrl: "com.myapp://oauthredirect", // ✅ must match WSO2 callback URL
+  clientId: "XIlAzXYuS47l2_0aEo_I_52Ru50a",
+  redirectUrl: "wso2demo://oauthredirect", // ✅ must match WSO2 callback URL
   scopes: ["openid", "profile", "email", "roles"],
   serviceConfiguration: {
     authorizationEndpoint: "https://192.168.115.17:9443/oauth2/authorize",
